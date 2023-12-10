@@ -19,8 +19,28 @@ a{
 }
 ul li,
 ol li {
-
+list-style: none;
 }
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+button{
+  display: block;
+  border: none;
+  color: inherit;
+  background-color: inherit;
+  transition: 4s;
+  cursor: pointer;
+}
+.container {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 0 75px ;
+}
+.container-header {
+  padding: 0 10px;}
+    
 /* header */
 .head {
 	padding: 20px 0;
