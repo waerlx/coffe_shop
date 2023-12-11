@@ -8,47 +8,109 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  color:#FFF;
-  background: #14110E;
+body {
+  color: #FFFFFF;
+  font: 500 16px/28px 'Urbanist', Arial, Helvetica, sans-serif;
+  background-color: #14110E;
 }
-a{
-  text-decoration: none;
+a {
   color: inherit;
-  transition: 3s;
+  text-decoration: none;
+  transition: .4s;
 }
-ul li,
+ul li, 
 ol li {
-list-style: none;
+  list-style-type: none;
 }
-img{
+img {
   max-width: 100%;
   max-height: 100%;
 }
-button{
+button {
   display: block;
   border: none;
   color: inherit;
-  background-color: inherit;
-  transition: 4s;
+  font: inherit;
+  background-color: transparent;
+  transition: .4s;
   cursor: pointer;
 }
+.btn-primary {
+  padding: 20px 36px;
+  font: 700 18px 'Inter', Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #C99E71;
+}
+.btn-primary:hover {
+  background-color: #bd864b;
+}
+input {
+  display: block;
+  padding: 16px 20px;
+  border: none;
+  outline: none;
+  color: inherit;
+  font: 600 18px/32px 'Urbanist', Arial, Helvetica, sans-serif;
+  opacity: 0.8;
+  background-color: #14110E;
+}
 .container {
-  max-width: 1340px;
+  max-width: 1330px;
+  width: 100%;
+  min-width: 320px;
   margin: 0 auto;
-  padding: 0 75px ;
+  padding: 0 75px;
 }
 .container-header {
-  padding: 0 10px;}
-    
-/* header */
-.head {
-	padding: 20px 0;
-	align-items: center;
-	background: #1C1814;
-  }
-  .menu_right{
-    display: block;
-  }
-  
-  
+  padding: 0 10px;
+}
+.section-main {
+  padding-bottom: 140px;
+}
+.section-title {
+  margin-bottom: 12px;
+  color: #C99E71;
+  font: 600 18px/22px 'Urbanist', Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.section-subtitle {
+  margin-bottom: 56px;
+  font: 48px/62px 'Righteous', cursive;
+  text-align: center;
+}
+.section__text {
+  opacity: 0.8;
+  text-transform: capitalize;
+}
+
+/* Header */
+#header-section {
+  padding: 32px 0;
+  background-color: #1C1814;
+}
+.header,
+.nav-main,
+.nav-main__list,
+.header-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-main {
+  flex-grow: 1;
+}
+.nav-main__list {
+  color: #FFF;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+gap: 48px;
+}
+.nav-main__link_selected {
+  color: #C99E71;
+  font-weight: 700;
+  cursor: default;
+}
