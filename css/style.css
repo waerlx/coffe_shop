@@ -108,6 +108,11 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 gap: 48px;
+margin-left: 300px;
+
+}
+.nav-main__list .nav-main__list_2{
+  margin-left: 300px;
 }
 .nav-main__link_selected {
   color: #C99E71;
