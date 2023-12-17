@@ -72,7 +72,7 @@ textarea {
 
 body {
   background: #14110E;
-  color: #FFFFFF;
+  color: #FFF;
   font-family: "DM Sans", arial;
   font-size: 18px;
   line-height: 28px;
@@ -340,6 +340,10 @@ line-height: normal;
 .popular_card{
   background: #121315;
   padding: 48px;
+  padding-bottom: 36px;
+}
+.popular_img{
+  margin-bottom: 36px;
 }
 .card_tit{
   color: #FFF;
