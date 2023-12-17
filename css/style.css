@@ -339,4 +339,14 @@ line-height: normal;
 /* popular */
 .popular_card{
   background: #121315;
+  padding: 48px;
+}
+.card_tit{
+  color: #FFF;
+font-family: Righteous;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
 }
