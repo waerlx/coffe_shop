@@ -336,3 +336,7 @@ line-height: normal;
 .history_subtitle{
   margin-bottom: 36px;
 }
+/* popular */
+.popular_card{
+  background: #121315;
+}
