@@ -159,6 +159,9 @@ text-transform: capitalize;
 margin-bottom: 64px;
 
 }
+.sec_tit{
+  
+}
 
 
 
@@ -225,7 +228,7 @@ header {
 .main_info_info{
   max-width: 530px;
 }
-.sec_tit{
+.main_tit{
 font-family: Righteous;
 font-size: 72px;
 line-height: 130%; /* 93.6px */
