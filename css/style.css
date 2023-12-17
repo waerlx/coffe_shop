@@ -160,11 +160,15 @@ margin-bottom: 64px;
 
 }
 .sec_tit{
+  color: #C99E71;
+  font-family: Urbanist;
+  font-weight: 600;
+  line-height: normal; 
+  text-align: center; 
+}
+.sec_subtitle{
   
 }
-
-
-
 
 /* Header */
 header {
@@ -311,7 +315,11 @@ line-height: normal;
 }
 .history_right{
   background: #1C1814;
+  padding: 120px 56px 0;
 }
 .history_img:first-child{
   margin-bottom: 32px;
+}
+.history_tit{
+  text-align: start;
 }
