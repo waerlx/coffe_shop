@@ -326,6 +326,9 @@ line-height: normal;
   margin-bottom: 36px;
 }
 /* popular */
+.popular_cards{
+  margin-top: 56px;
+}
 .popular_card{
   background: #121315;
   padding: 48px;
@@ -342,4 +345,17 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 text-transform: uppercase;
+}
+.popular_card .card_tit{
+  margin-bottom: 38px;
+}
+.popular_card_btn{
+  background: #C99E71;
+  padding: 13px 20px;
+}
+.popular_btn_txt{
+  color: #FFF;
+font-family: Urbanist;
+font-weight: 600;
+margin-left: 12px;
 }
