@@ -140,6 +140,7 @@ section {
 
 .flex {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .section_btn{
@@ -167,7 +168,13 @@ margin-bottom: 64px;
   text-align: center; 
 }
 .sec_subtitle{
-  
+  color: #FFF;
+  font-family: Righteous;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; 
+  text-align: center;
 }
 
 /* Header */
@@ -285,8 +292,8 @@ transition: 0.4s;
 
 
 /* best */
-.best_cards{
-  gap: 36px;
+.best_card{
+  width: calc((100% - 36px) / 3);
 }
 .best_tit{
   gap: 12px;
@@ -308,18 +315,24 @@ line-height: normal;
 }
 /* history */
 .history_in{
-  gap:32px;
+
 }
 .history_img_sm{
   margin-right: 32px;
 }
 .history_right{
+  width: 40%;
   background: #1C1814;
-  padding: 120px 56px 0;
+  padding:120px 56px 0 56px  ;
+  
 }
 .history_img:first-child{
   margin-bottom: 32px;
 }
 .history_tit{
   text-align: start;
+  margin-bottom: 12px;
+}
+.history_subtitle{
+  margin-bottom: 36px;
 }
