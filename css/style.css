@@ -206,13 +206,7 @@ header {
   font-size: 30px;
   color: #FFFFFF;
 }
-.main_btn{
-  display: inline-flex;
-padding: 24px 40px;
-align-items: flex-start;
-gap: 10px;
-background: #C99E71;
-}
+
 /* main */
 .main{
   background: url(../img/icons/main_img.jpg) 50% 50%/cover no-repeat;
@@ -240,11 +234,31 @@ margin-bottom: 64px;
 .main_btn{
   display: inline-flex;
 padding: 24px 40px;
+align-items: center;
 gap: 10px;
+background: #C99E71;
+transition: 0.4s;
 }
+.main_btn:hover{
+  background: #916033;
+}
+
 .main_video__btn{
-  background-image: ;
+  color: #fff;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  align-self: flex-end;
+  height: 110px;
+  font: 400 16px 'Inter', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  background: url(../img/icons/play_triangle.svg) 50%/14px 18px no-repeat;
+  transition: 0.4s;
 }
+.main_video__btn:hover{
+ color: #C99E71;
+}
+
 
 /* best */
 .best_cards{
