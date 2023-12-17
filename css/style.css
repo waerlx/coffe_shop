@@ -143,6 +143,10 @@ section {
   display: flex;
   justify-content: space-between;
 }
+.section_btn{
+padding: 24px 36px;
+background: #000;
+}
 
 
 
@@ -198,6 +202,13 @@ header {
 .header-icons__cart {
   font-size: 30px;
   color: #FFFFFF;
+}
+.main_btn{
+  display: inline-flex;
+padding: 24px 40px;
+align-items: flex-start;
+gap: 10px;
+background: #C99E71;
 }
 /* main */
 .main{
