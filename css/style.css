@@ -252,12 +252,26 @@ transition: 0.4s;
   height: 110px;
   font: 400 16px 'Inter', Arial, Helvetica, sans-serif;
   text-transform: uppercase;
-  background: url(../img/icons/play_triangle.svg) 50%/14px 18px no-repeat;
-  transition: 0.4s;
+  
 }
 .main_video__btn:hover{
  color: #C99E71;
+
 }
+.main_video__btn::before{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 50%;
+  width: 66px;
+  height: 66px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: url(../img/icons/play_triangle.svg) 50%/14px 18px no-repeat;
+  transition: 0.4s;
+  transform: translateX(-50%);
+}
+
 
 
 /* best */
