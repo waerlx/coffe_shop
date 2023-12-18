@@ -413,3 +413,21 @@ font-size: 16px;
 line-height: normal;
 text-transform: uppercase;
 }
+.popular__price{
+  color: #FFF;
+font-family: Urbanist;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+.popular__price_dark{
+  color: #C99E71;
+font-family: Urbanist;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
