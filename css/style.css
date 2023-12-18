@@ -390,6 +390,9 @@ header {
   font-weight: 600;
   margin-left: 12px;
 }
+.popular_card_item{
+  gap: 13px;
+}
 
 .popular_item_star {
   background: url(../img/icons/popular_star.svg) no-repeat;
@@ -403,4 +406,10 @@ header {
   height: 20px;
   display: inline-block;
 }
-.popular_card_item
+.popular_item_txt{
+  color: #C99E71;
+font-family: Urbanist;
+font-size: 16px;
+line-height: normal;
+text-transform: uppercase;
+}
