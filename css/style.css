@@ -498,6 +498,7 @@ font-weight: 600;
 }
 .costumer_data{
 gap: 24px;
+margin-bottom: 24px;
 }
 .costumer_edu{
   max-width: 332px;
