@@ -511,3 +511,7 @@ display: block;
 font-family: Urbanist;
 line-height: 120%; /* 21.6px */
 }
+.costumer_info{
+  align-items: flex-end;
+}
+.
