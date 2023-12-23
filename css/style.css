@@ -502,4 +502,8 @@ gap: 24px;
 .costumer_edu{
   max-width: 332px;
 }
-.
+.costumer_name{
+display: block;
+font-family: Urbanist;
+line-height: 120%; /* 21.6px */
+}
