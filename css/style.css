@@ -375,8 +375,13 @@ header {
 }
 
 /* popular */
-.popular_card .card_tit {
-  margin-bottom: 38px;
+.popular_card{
+  text-align: center;
+}
+.popular_card .card_tit,
+.popular_card_item
+ {
+  margin-bottom: 20px;
 
 }
 
@@ -393,6 +398,7 @@ header {
 }
 
 .popular_card_item {
+  justify-content: center;
   gap: 13px;
 }
 
