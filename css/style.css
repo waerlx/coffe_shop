@@ -494,6 +494,9 @@ font-weight: 600;
 .testimonial_sub{
   margin-bottom: 56px;
 }
+.costumer_cards_general{
+  overflow: hidden;
+}
 .costumer_card{
   max-width: 565px;
   background: #1C1814;
@@ -514,4 +517,9 @@ line-height: 120%; /* 21.6px */
 .costumer_info{
   align-items: flex-end;
 }
-.
+.costumer_item_star{
+  background: url(../img/icons/costumer_star.svg) no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
