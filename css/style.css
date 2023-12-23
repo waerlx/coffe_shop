@@ -325,7 +325,7 @@ header {
 }
 
 .history_right {
-  width: 40%;
+  max-width: 40%;
   background: #1C1814;
   padding: 120px 56px 0 56px;
 
@@ -375,12 +375,12 @@ header {
 }
 
 /* popular */
-.popular_card{
+.popular_card {
   text-align: center;
 }
+
 .popular_card .card_tit,
-.popular_card_item
- {
+.popular_card_item {
   margin-bottom: 20px;
 
 }
@@ -443,8 +443,36 @@ header {
   line-height: normal;
   text-transform: uppercase;
 }
-.popular_btn{
+
+.popular_btn {
   margin: 0 auto;
   display: block;
   margin-top: 56px;
+}
+
+/* discover */
+.discover_info,
+.discover_tit {
+  text-align: start;
+}
+
+.discover_info {
+  max-width: 535px;
+}
+
+.discover_wrap {
+  background: #1C1814;
+  justify-content: center;
+  padding: 85px;
+}
+.discover_left{
+  margin-right: 160px;
+}
+.discover_tit{
+  margin-bottom: 36px;
+}
+
+/* menu */
+.menu_card{
+  justify-content: start;
 }
