@@ -489,3 +489,6 @@ font-family: Urbanist;
 font-weight: 600;
 }
 /* costumer */
+.costumer_card{
+  max-width: 565px;
+}
