@@ -480,6 +480,9 @@ header {
   border: 1px solid #32323D;
   margin-bottom:36px;
 }
+.menu_card_tit{
+  text-transform: capitalize;
+}
 .menu_price{
   color: #C99E71;
 font-family: Urbanist;
