@@ -144,7 +144,6 @@ section {
   line-height: 180%;
   /* 36px */
   text-transform: capitalize;
-  margin-bottom: 64px;
 
 }
 
@@ -285,6 +284,7 @@ header {
 
 .main_txt {
   font-size: 20px;
+margin-bottom: 64px;
 }
 
 
@@ -464,6 +464,9 @@ header {
   margin-right: 160px;
 }
 .discover_tit{
+  margin-bottom: 36px;
+}
+.discover_txt{
   margin-bottom: 36px;
 }
 
