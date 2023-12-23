@@ -80,7 +80,7 @@ body {
   width: 100%;
   min-width: 320px;
   margin: 0 auto;
-  padding: 0 100px;
+  padding: 0 75px;
 }
 
 .dn {
@@ -89,7 +89,6 @@ body {
 
 section {
   padding: 100px 0;
-  margin-bottom: 140px;
 }
 
 .color {
@@ -489,9 +488,18 @@ font-family: Urbanist;
 font-weight: 600;
 }
 /* costumer */
+.testimonial_sub{
+  margin-bottom: 56px;
+}
 .costumer_card{
   max-width: 565px;
+  background: #1C1814;
+  padding: 40px;
 }
 .costumer_data{
-  justify-content: center;
+gap: 24px;
 }
+.costumer_edu{
+  max-width: 332px;
+}
+.
