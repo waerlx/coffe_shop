@@ -492,3 +492,6 @@ font-weight: 600;
 .costumer_card{
   max-width: 565px;
 }
+.costumer_data{
+  justify-content: center;
+}
