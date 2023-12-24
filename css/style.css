@@ -100,7 +100,7 @@ section {
 }
 
 .hover {
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 .hover:hover {
@@ -385,6 +385,9 @@ header {
 .popular_card_btn {
   background: #C99E71;
   padding: 13px 20px;
+  text-transform:none;
+  display: flex;
+
 }
 
 .popular_btn_txt {
