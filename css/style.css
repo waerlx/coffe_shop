@@ -130,7 +130,7 @@ section {
 
 .section_btn {
   margin: 0 auto;
-    display: block;
+  display: block;
   padding: 20px 36px;
   font: 700 18px 'Inter', Arial, Helvetica, sans-serif;
   text-align: center;
@@ -206,7 +206,7 @@ header {
 
 .header__logo,
 .footer__img {
-  max-width:  72px;
+  max-width: 72px;
 }
 
 .header-icons {
@@ -385,7 +385,7 @@ header {
 .popular_card_btn {
   background: #C99E71;
   padding: 13px 20px;
-  text-transform:none;
+  text-transform: none;
   display: flex;
 
 }
@@ -477,7 +477,8 @@ header {
 .discover_txt {
   margin-bottom: 36px;
 }
-.discover_btn{
+
+.discover_btn {
   display: inline-flex;
 }
 
@@ -548,18 +549,21 @@ header {
 }
 
 /* book */
-.book_wrap{
+.book_wrap {
   justify-content: center;
 }
+
 .book_right {
   width: 50%;
   background: #1C1814;
   padding: 72px 48px;
 
 }
-.book_sub{
-margin-bottom: 56px;
+
+.book_sub {
+  margin-bottom: 56px;
 }
+
 .book_input {
   padding: 16px 20px;
   background: #14110E;
@@ -571,45 +575,71 @@ margin-bottom: 56px;
   line-height: 180%;
   text-transform: capitalize;
 }
-.book_input:last-child{
+
+.book_input:last-child {
   margin-bottom: 56px;
 }
 
 /* news */
-.news_sub{
+.news_sub {
   margin-bottom: 56px;
 }
-.news_card{
+
+.news_card {
   background: #1C1814;
 }
-.news_info{
+
+.news_info {
   font-size: 18px;
   padding: 20px 24px 28px 24px;
 }
-.news__author_dark{
+
+.news__author_dark {
   color: #C99E71;
-line-height: normal;
+  line-height: normal;
 }
-.news_card_tit{
+
+.news_card_tit {
   margin-top: 16px;
-font-size: 20px;
-line-height: 150%;
-text-transform: capitalize;
+  font-size: 20px;
+  line-height: 150%;
+  text-transform: capitalize;
 }
-.news_link{
+
+.news_link {
   justify-content: flex-start;
   gap: 8px;
   margin-top: 33px;
   color: #C99E71;
-font-size: 16px;
-line-height: normal;
+  font-size: 16px;
+  line-height: normal;
 }
+
 /* footer */
-.footer{
+.footer {
   align-items: center;
-  
+
 }
-.footer_nav{
-gap: 40px;
-font-size: 20px;
+
+.footer_nav {
+  gap: 40px;
+  font-size: 20px;
+}
+
+.footer_email {
+  width: 100%;
+    padding: 22px 70px 22px 28px;
+    border-radius: 36px;
+    background-color: #1C1814;
+}
+
+.footer_btn {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #C99E71;
+  transform: translateY(-50%);
 }
