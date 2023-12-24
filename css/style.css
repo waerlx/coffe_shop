@@ -577,8 +577,8 @@ margin-bottom: 56px;
 }
 
 /* news */
-.news_author_info{
-
+.news_info{
+  font-size: 18px;
 }
 .news__author_dark{
   color: #C99E71;
