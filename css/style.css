@@ -69,10 +69,7 @@ textarea {
 body {
   background: #14110E;
   color: #FFF;
-  font-family: "DM Sans", arial;
-  font-size: 18px;
-  line-height: 28px;
-  /* 155.556% */
+  font: 500 16px/28px 'Urbanist', Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -585,3 +582,4 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
+.
