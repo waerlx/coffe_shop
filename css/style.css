@@ -549,7 +549,7 @@ header {
   justify-content: center;
 }
 .book_right {
-  max-width: 585px;
+  width: 100%;
   background: #1C1814;
   padding: 72px 48px;
 
