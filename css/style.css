@@ -109,8 +109,8 @@ section {
 
 
 
-.btn:hover {
-  background: #2c2f24;
+.section_btn:hover {
+  background: #916033;
   color: #fff;
 }
 
@@ -549,7 +549,7 @@ header {
   justify-content: center;
 }
 .book_right {
-  width: 100%;
+  width: 50%;
   background: #1C1814;
   padding: 72px 48px;
 
