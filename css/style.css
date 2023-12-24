@@ -577,6 +577,9 @@ margin-bottom: 56px;
 }
 
 /* news */
+.news_sub{
+  margin-bottom: 56px;
+}
 .news_card{
   background: #1C1814;
 }
@@ -593,4 +596,12 @@ line-height: normal;
 font-size: 20px;
 line-height: 150%;
 text-transform: capitalize;
+}
+.news_link{
+  justify-content: flex-start;
+  gap: 8px;
+  margin-top: 33px;
+  color: #C99E71;
+font-size: 16px;
+line-height: normal;
 }
