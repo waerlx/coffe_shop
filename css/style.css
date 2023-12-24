@@ -545,7 +545,11 @@ header {
 }
 
 /* book */
+.book_wrap{
+  justify-content: center;
+}
 .book_right {
+  margin-left: 0;
   background: #1C1814;
   padding: 72px 48px;
 
@@ -563,4 +567,7 @@ margin-bottom: 56px;
   font-weight: 600;
   line-height: 180%;
   text-transform: capitalize;
+}
+.book_input:last-child{
+  margin-bottom: 56px;
 }
