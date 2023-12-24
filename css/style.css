@@ -605,6 +605,11 @@ font-size: 16px;
 line-height: normal;
 }
 /* footer */
-.footer_list{
-
+.footer{
+  align-items: center;
+  
+}
+.footer_nav{
+gap: 40px;
+font-size: 20px;
 }
