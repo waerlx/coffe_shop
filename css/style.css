@@ -618,15 +618,18 @@ header {
 /* footer */
 .footer {
   align-items: center;
-
+  justify-content: center;
 }
-
+.footer__img{
+  margin-right: 36px;
+}
 .footer_nav {
   gap: 40px;
   font-size: 20px;
 }
 .footer_form{
   position: relative;
+  margin-left: 82px;
 }
 .footer_email {
   width: 100%;
@@ -644,4 +647,18 @@ header {
   border-radius: 50%;
   background-color: #C99E71;
   transform: translateY(-50%);
+}
+.copyright{
+  padding: 33px 0;
+  background: #1C1814;
+  margin-top: 72px;
+  text-align: center;
+}
+.copy_txt{
+  color: #FFF;
+font-family: Urbanist;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 180%; /* 25.2px */
 }
