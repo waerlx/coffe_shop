@@ -521,7 +521,7 @@ header {
 }
 
 .costumer_cards_general {
-  overflow: hidden;
+ display: grid; 
 }
 
 .costumer_card {
