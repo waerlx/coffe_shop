@@ -544,7 +544,9 @@ header {
   background: #1C1814;
   padding: 72px 48px;
 }
-
+.book_sub{
+margin-bottom: 56px;
+}
 .book_input {
   padding: 16px 20px;
   background: #14110E;
