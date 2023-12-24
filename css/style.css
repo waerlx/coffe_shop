@@ -386,7 +386,7 @@ header {
   background: #C99E71;
   padding: 13px 20px;
   text-transform: none;
-  display: flex;
+  display: none;
 
 }
 
@@ -432,6 +432,7 @@ header {
   font-weight: 600;
   line-height: normal;
   text-transform: uppercase;
+  display: block;
 }
 
 .popular__price_dark {
@@ -448,6 +449,13 @@ header {
   margin: 0 auto;
   display: block;
   margin-top: 56px;
+}
+.popular_card:hover .popular_card_item,
+.popular_card:hover .popular__price{
+  display: none;  
+}
+.popular_card:hover .popular_card_btn{
+  display: flex;
 }
 
 /* discover */
