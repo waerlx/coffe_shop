@@ -577,14 +577,14 @@ margin-bottom: 56px;
 }
 
 /* news */
+.news_card{
+  background: #1C1814;
+}
 .news_info{
   font-size: 18px;
+  padding: 20px 24px 28px 24px;
 }
 .news__author_dark{
   color: #C99E71;
-font-family: Urbanist;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
 line-height: normal;
 }
