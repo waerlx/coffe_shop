@@ -526,5 +526,10 @@ line-height: 120%; /* 21.6px */
 /* book */
 .book_right{
   background: #1C1814;
+  padding: 72px 48px; 
 }
-.
+.book_input{
+  padding: 16px 20px;
+  background: #14110E;
+  margin-bottom: 24px;
+}
