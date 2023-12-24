@@ -577,6 +577,9 @@ margin-bottom: 56px;
 }
 
 /* news */
+.news_author_info{
+
+}
 .news__author_dark{
   color: #C99E71;
 font-family: Urbanist;
@@ -585,4 +588,3 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
-.
