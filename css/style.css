@@ -284,7 +284,7 @@ header {
 
 .main_txt {
   font-size: 20px;
-margin-bottom: 64px;
+  margin-bottom: 64px;
 }
 
 
@@ -460,76 +460,99 @@ margin-bottom: 64px;
   justify-content: center;
   padding: 85px;
 }
-.discover_left{
+
+.discover_left {
   margin-right: 160px;
 }
-.discover_tit{
+
+.discover_tit {
   margin-bottom: 36px;
 }
-.discover_txt{
+
+.discover_txt {
   margin-bottom: 36px;
 }
 
 /* menu */
-.menu_sub{
+.menu_sub {
   margin-bottom: 56px;
 }
-.menu_card{
+
+.menu_card {
   align-items: center;
   gap: 20px;
   width: 48%;
   padding: 24px;
   border: 1px solid #32323D;
-  margin-bottom:36px;
+  margin-bottom: 36px;
 }
-.menu_card_tit{
+
+.menu_card_tit {
   text-transform: capitalize;
 }
-.menu_price{
+
+.menu_price {
   color: #C99E71;
-font-family: Urbanist;
-font-weight: 600;
+  font-family: Urbanist;
+  font-weight: 600;
 }
+
 /* costumer */
-.testimonial_sub{
+.testimonial_sub {
   margin-bottom: 56px;
 }
-.costumer_cards_general{
+
+.costumer_cards_general {
   overflow: hidden;
 }
-.costumer_card{
+
+.costumer_card {
   max-width: 565px;
   background: #1C1814;
   padding: 40px;
 }
-.costumer_data{
-gap: 24px;
-margin-bottom: 24px;
+
+.costumer_data {
+  gap: 24px;
+  margin-bottom: 24px;
 }
-.costumer_edu{
+
+.costumer_edu {
   max-width: 332px;
 }
-.costumer_name{
-display: block;
-font-family: Urbanist;
-line-height: 120%; /* 21.6px */
+
+.costumer_name {
+  display: block;
+  font-family: Urbanist;
+  line-height: 120%;
+  /* 21.6px */
 }
-.costumer_info{
+
+.costumer_info {
   align-items: flex-end;
 }
-.costumer_item_star{
+
+.costumer_item_star {
   background: url(../img/icons/costumer_star.svg) no-repeat;
   width: 20px;
   height: 20px;
   display: inline-block;
 }
+
 /* book */
-.book_right{
+.book_right {
   background: #1C1814;
-  padding: 72px 48px; 
+  padding: 72px 48px;
 }
-.book_input{
+
+.book_input {
   padding: 16px 20px;
   background: #14110E;
   margin-bottom: 24px;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Urbanist;
+  font-weight: 600;
+  line-height: 180%;
+  text-transform: capitalize;
 }
