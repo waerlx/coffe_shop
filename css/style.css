@@ -625,7 +625,9 @@ header {
   gap: 40px;
   font-size: 20px;
 }
-
+.footer_form{
+  position: relative;
+}
 .footer_email {
   width: 100%;
     padding: 22px 70px 22px 28px;
