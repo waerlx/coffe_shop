@@ -588,4 +588,8 @@ margin-bottom: 56px;
   color: #C99E71;
 line-height: normal;
 }
-
+.news_card_tit{
+font-size: 20px;
+line-height: 150%;
+text-transform: capitalize;
+}
