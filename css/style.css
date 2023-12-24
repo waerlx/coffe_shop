@@ -206,8 +206,7 @@ header {
 
 .header__logo,
 .footer__img {
-  width: 72px;
-  height: 60px;
+  max-width:  72px;
 }
 
 .header-icons {
