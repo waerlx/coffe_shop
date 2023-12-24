@@ -445,6 +445,7 @@ header {
   margin: 0 auto;
   display: block;
   margin-top: 56px;
+  transition: 0.4s;
 }
 
 /* discover */
