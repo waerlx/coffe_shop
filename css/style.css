@@ -520,10 +520,6 @@ header {
   margin-bottom: 56px;
 }
 
-.costumer_cards_general {
- display: grid; 
-}
-
 .costumer_card {
   max-width: 565px;
   background: #1C1814;
