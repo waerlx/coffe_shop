@@ -183,7 +183,7 @@ header {
 
 .nav-main {
   flex-grow: 1;
-  margin-inline-start: 100px;
+  /* margin-inline-start: 100px; */
 
 }
 
@@ -212,7 +212,7 @@ header {
 .header-icons {
   gap: 50px;
   margin-left: 48px;
-  margin-inline-end: 100px;
+  /* margin-inline-end: 100px; */
 }
 
 .header-icons__search,
