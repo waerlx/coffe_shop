@@ -52,7 +52,7 @@
 	/* history */
 	.history_right{
 		margin-left: 0;
-		padding: 50px 40px 0 40px;
+		padding: 40px 40px 10px 40px;
 		/* padding-bottom: 120px; */
 	}
 	.history_img_sm {
@@ -70,6 +70,9 @@
 	/* popular */
 	.popular_cards{
 		margin-top: 45px;
+	}
+	.popular_card{
+		max-width: 270px ;
 	}
 	
 }
