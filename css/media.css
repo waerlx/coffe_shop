@@ -2,16 +2,80 @@
 	.container{
 		max-width: 960px;
 	}
+	.history_right{
+		margin-top: 32px;
+		padding-bottom: 120px;
+	}
 }
 @media screen and (max-width: 990px) {
 	.container{
 		max-width: 750px;
 	}
+	.sec_subtitle{
+		font-size: 30px;
+	}
+	.history_right {
+		max-width: 40%;
+		background: #1C1814;
+		padding: 50px 25px 9px 25px;
+		margin-left: 32px;
+	}
+	.sec_txt {
+		color: rgba(255, 255, 255, 0.80);
+		font-family: Urbanist;
+		font-size: 14px;
+		line-height: 180%;
+		text-transform: capitalize;}
+
 }
 @media screen and (max-width: 780px) {
 	.container{
 		max-width: 510px;
 	}
+	.history_right {
+		max-width: 40%;
+		background: #1C1814;
+		padding: 50px 10px 5px 10px;
+		margin-left: 32px;
+	}
+	.sec_txt {
+		color: rgba(255, 255, 255, 0.80);
+		font-family: Urbanist;
+		font-size: 13px;
+		line-height: 180%;
+		text-transform: capitalize;}
+
+	.sec_subtitle{
+		font-size: 20px;
+	}
+	.sec_tit{
+		font-size: 13px;
+		
+	}
+	.discover_left{
+		margin-right: 0;
+	}
+	.discover_img{
+		max-width: 130px;
+	}
+	.discover_tit{
+		margin-bottom: 20px;
+	}
+	.discover_wrap{
+		padding: 20px;
+	}
+	.discover_txt{
+		margin-bottom: 20px;
+	}
+	.discover_btn{
+		display: block;
+		align-items: center;
+	}
+	.section_btn{
+		padding: 10px 15px;
+		font-size: 14px;
+	}
+	
 }
 @media screen and (max-width: 540px) {
 	.container{
