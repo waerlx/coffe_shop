@@ -557,7 +557,9 @@ header {
 .book_wrap {
   justify-content: center;
 }
-
+.book_left{
+  max-width: 575px;
+}
 .book_right {
   width: 50%;
   background: #1C1814;
