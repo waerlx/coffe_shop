@@ -378,6 +378,7 @@ header {
 /* popular */
 .popular_card {
   text-align: center;
+  box-shadow: -5px -5px 66px -9px rgba(34, 60, 80, 0.2);
 }
 
 .popular_card .card_tit,
