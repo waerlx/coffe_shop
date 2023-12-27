@@ -220,11 +220,14 @@ header {
   font-size: 30px;
   color: #FFFFFF;
 }
-
+.menu_burger{
+  display: none;
+}
 /* main */
 .main {
   background: url(../img/icons/main_img.jpg) 50% 50%/cover no-repeat;
   margin-top: 0;
+  background-position: center;
 
 }
 
@@ -325,7 +328,7 @@ header {
   max-width: 40%;
   background: #1C1814;
   padding: 120px 56px 0 56px;
-  margin-left: 32px;
+  /* margin-left: 32px; */
 
 }
 
