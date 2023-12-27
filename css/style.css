@@ -167,6 +167,9 @@ section {
   line-height: 130%;
   text-align: center;
 }
+.transition{
+  transition: 0.4s;
+}
 
 /* Header */
 header {
@@ -222,6 +225,9 @@ header {
 }
 .menu_burger{
   display: none;
+}
+.material-icons__cart:hover{
+color: #C99E71 ;
 }
 /* main */
 .main {
@@ -378,6 +384,9 @@ header {
 /* popular */
 .popular_card {
   text-align: center;
+ 
+}
+.popular_card:hover{
   box-shadow: -5px -5px 66px -9px rgba(34, 60, 80, 0.2);
 }
 
@@ -493,6 +502,7 @@ header {
 
 .discover_btn {
   display: inline-flex;
+  transform: scale(1.2);
 }
 
 /* menu */
@@ -507,6 +517,9 @@ header {
   padding: 24px;
   border: 1px solid #32323D;
   margin-bottom: 36px;
+}
+.menu_card:hover{
+  box-shadow: -5px -5px 66px -9px rgba(34, 60, 80, 0.2);
 }
 
 .menu_card_tit {
@@ -528,6 +541,10 @@ header {
   max-width: 565px;
   background: #1C1814;
   padding: 40px;
+
+}
+.costumer_card:hover{
+  box-shadow: -5px -5px 66px -9px rgba(34, 60, 80, 0.2);
 }
 
 .costumer_data {
@@ -598,6 +615,9 @@ header {
 
 .news_card {
   background: #1C1814;
+}
+.news_card:hover{
+  box-shadow: -5px -5px 66px -9px rgba(34, 60, 80, 0.2);
 }
 
 .news_info {
@@ -672,4 +692,10 @@ font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: 180%; /* 25.2px */
+}
+.footer_link{
+  transition: 0.4s;
+}
+.footer_link:hover{
+color: #C99E71;
 }
