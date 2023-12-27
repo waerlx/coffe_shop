@@ -121,6 +121,17 @@
 	.book_left{
 		max-width: 400px;
 	}
+	.news_card{
+		max-width: 270px;
+	}.news_info {
+		font-size: 14px;
+		padding: 20px 22px 26px 20px;
+	}
+	.news_link{
+		font-size: 14px;
+		margin-top: 28px;
+	}
+
 }
 @media screen and (max-width: 990px) {
 	.container{
