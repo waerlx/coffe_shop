@@ -87,9 +87,7 @@ body {
   display: none;
 }
 
-section {
-  padding: 100px 0;
-}
+
 
 .color {
   color: #be963f;
@@ -175,6 +173,13 @@ section {
 }
 .animation:hover{
   transform: scale(1.1);
+}
+section {
+  padding-bottom: 140px;
+}
+section:first-child{
+  padding: 140px 0;
+
 }
 
 /* Header */
@@ -291,8 +296,9 @@ color: #C99E71 ;
 /* main */
 .main {
   background: url(../img/icons/main_img.jpg) 50% 50%/cover no-repeat;
-  margin-top: 0;
   background-position: center;
+  margin-bottom: 140px;
+  padding: 140px 0;
 
 }
 
@@ -304,7 +310,6 @@ color: #C99E71 ;
   font-family: Righteous;
   font-size: 72px;
   line-height: 130%;
-  /* 93.6px */
   margin-bottom: 32px;
 }
 
