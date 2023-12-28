@@ -191,12 +191,12 @@
 		font-size: 30px;
 	}
 
-	.history_right {
+	/* .history_right {
 		max-width: 40%;
 		background: #1C1814;
 		padding: 50px 25px 9px 25px;
 		margin-left: 32px;
-	}
+	} */
 	.card_tit{
 		font-size: 16px;
 	}
@@ -290,6 +290,14 @@
 	.popular__price{
 		font-size: 14px;
 	}
+	.book_left{
+		max-width: 100%;
+		margin-bottom: 30px ;
+	}
+	.book_right{
+		max-width: 100%;
+	}
+	
 }
 
 @media screen and (max-width: 780px) {
