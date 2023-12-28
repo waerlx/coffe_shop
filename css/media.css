@@ -78,7 +78,7 @@
 	}
 
 	.history_img_sm {
-		margin-right: 28px;
+		padding-right: 28px;
 	}
 
 	.history_img {
@@ -91,6 +91,9 @@
 
 	.history_subtitle {
 		margin-bottom: 26px;
+	}
+	.history_right{
+		max-width: 40%;
 	}
 
 	/* popular */
@@ -194,7 +197,12 @@
 		padding: 50px 25px 9px 25px;
 		margin-left: 32px;
 	}
-
+	.card_tit{
+		font-size: 16px;
+	}
+	.section_btn{
+		padding: 15px 30px;
+	}
 	.sec_txt {
 		color: rgba(255, 255, 255, 0.80);
 		font-family: Urbanist;
@@ -258,16 +266,29 @@
 		max-width: 175px;
 	}
 	.history_img_sm {
-		margin-right: 24px;
-	}
-	.history_img_sm {
-		margin-right: 26px;
+		padding-right: 24px;
 	}
 	.history_right {
 		max-width: 40%;
 		background: #1C1814;
 		padding: 40px 8px 4px 10px;
 		margin-left: 0;
+	}
+	.history_img:first-child {
+		margin-bottom: 26px;
+	}
+	.popular_card{
+		max-width: 220px;
+		padding: 25px;
+	}
+	.popular_item_txt{
+		font-size: 14px;
+	}
+	.popular_card .card_tit, .popular_card_item {
+		margin-bottom: 12px;
+	}
+	.popular__price{
+		font-size: 14px;
 	}
 }
 
