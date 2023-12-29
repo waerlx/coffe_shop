@@ -175,6 +175,18 @@
 		font-size: 14px;
 		margin-top: 28px;
 	}
+	.news_card{
+		max-width: 220px;
+	}
+	.logo{
+		margin-bottom: 20px;
+	}
+	.footer_nav{
+		margin-bottom: 20px;
+	}
+	.footer_email{
+		padding: 20px 60px 20px 24px;
+	}
 
 }
 
