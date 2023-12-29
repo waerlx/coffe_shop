@@ -346,6 +346,9 @@
 		padding: 50px 10px 5px 10px;
 		margin-left: 32px;
 	}
+	.card_tit{
+		font-size: 14px
+	}
 
 	.sec_txt {
 		color: rgba(255, 255, 255, 0.80);
@@ -395,6 +398,59 @@
 	}
 	.main_video__btn{
 		margin-top: 30px;
+	}
+	.best_txt{
+		font-size: 14px;
+	}
+	.best_nmb{
+		font-size: 14px;
+		
+	}
+	.best_cards{
+		flex-direction: column;
+		gap: 30px;
+		align-items: center;
+	}
+	.best_card{
+		max-width: none;
+	}
+	.history_right{
+		margin-top: 30px;
+		max-width: 350px;
+		padding: 70px 20px 10px 20px;
+		margin-left: 0;
+	}
+	.popular_cards{
+		flex-direction: column;
+		gap: 30px;
+		align-items: center;
+	}
+	.popular_card{
+		max-width: none;
+	}
+	.discover_img{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.menu_card{
+		padding: 14px;
+	}
+	.menu_price{
+		font-size: 14px;
+	}
+	.costumer_img{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.news_cards{
+		flex-direction: column;
+		gap: 30px;
+		align-items: center;
+	}
+	.news_card{
+		max-width: none;
 	}
 
 }
