@@ -406,62 +406,10 @@ header {
   content: '';
   top: 8px;
 }
-.burger-menu{
-display: none;
+.header__menu{
 }
-.menubox {
-  display: block;
-  position: fixed;
-  visibility: hidden;
-  top: 0;
-  left: -100%;
-  width: 300px;
-  height: 100%;
-  margin: 0;
-  padding: 80px 0;
-  list-style: none;
-  background-color: #ffffff;
-  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-  transition-duration: .25s;
-}
-
-.menu-item {
-  display: block;
-  padding: 12px 24px;
-  color: #333;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  text-decoration: none;
-  transition-duration: .25s;
-}
-
-.menu-item:hover {
-  background-color: #CFD8DC;
-}
-
-
-#menu-toggle {
-  opacity: 0;
-}
-
-#menu-toggle:checked~.menu-btn>span {
-  transform: rotate(45deg);
-}
-
-#menu-toggle:checked~.menu-btn>span::before {
-  top: 0;
-  transform: rotate(0);
-}
-
-#menu-toggle:checked~.menu-btn>span::after {
-  top: 0;
-  transform: rotate(90deg);
-}
-
-#menu-toggle:checked~.menubox {
-  visibility: visible;
-  left: 0;
+.menu__icon{
+  
 }
 .material-icons__cart:hover{
 color: #C99E71 ;
