@@ -13,11 +13,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Righteous&family=Urbanist:wght@500;600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -61,32 +63,36 @@
                     <button class="header-icons__cart material-icons-outlined">local_mall</button>
                 </div>
             </div>
-            <div class="burger-menu">
-                <input id="menu-toggle" type="checkbox" />
-                <label class="menu-btn" for="menu-toggle">
+            <div class="header__menu">
+                <div class="menu__icon">
                     <span></span>
-                </label>
-
-                <ul class="menubox">
-                    <li>
-                        <a class="menu-item" href="#">About</a>
-                    </li>
-                    <li>
-                        <a class="menu-item" href="#">Menu</a>
-                    </li>
-                    <li>
-                        <a class="menu-item" href="#">Reservation</a>
-                    </li>
-                    <li>
-                        <a class="menu-item" href="#">Pages</a>
-                    </li>
-                    <li>
-                        <a class="menu-item" href="#">Shop</a>
-                    </li>
-                    <li>
-                        <a class="menu-item" href="#">Contact</a>
-                    </li>
-                </ul>
+                    <span></span>
+                    <span></span>
+                    
+                </div>
+                <nav class="menu__body">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">About</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Menu</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Reservation</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Pages</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Contact</a>
+                            <a class="" href="#">Shop</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
@@ -102,7 +108,8 @@
                     <button class="transition section_btn main_btn animation">Test Coffee</button>
 
                 </div>
-                <button class="main_video__btn hover animation"><a href="#popup" class="popap_play">Play video</a></button>
+                <button class="main_video__btn hover animation"><a href="#popup" class="popap_play">Play
+                        video</a></button>
             </div>
         </div>
     </section>
@@ -192,7 +199,7 @@
 
                     <b class="popular__price">Price - <strong class="popular__price_dark">$320.00/</strong> $358</b>
                     <button class="hover section_btn popular_card_btn hover flex animation">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                             <path
                                 d="M6 2L3 6V20C3 20.5304 3.21071 21.0391 3.58579 21.4142C3.96086 21.7893 4.46957 22 5 22H19C19.5304 22 20.0391 21.7893 20.4142 21.4142C20.7893 21.0391 21 20.5304 21 20V6L18 2H6Z"
                                 stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -201,7 +208,7 @@
                             <path
                                 d="M16 10C16 11.0609 15.5786 12.0783 14.8284 12.8284C14.0783 13.5786 13.0609 14 12 14C10.9391 14 9.92172 13.5786 9.17157 12.8284C8.42143 12.0783 8 11.0609 8 10"
                                 stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
+                        </svg> -->
                         <p class="popular_btn_txt">Add to cart</p>
                     </button>
                 </div>
@@ -224,7 +231,7 @@
 
                     <b class="popular__price">Price - <strong class="popular__price_dark">$320.00/</strong> $358</b>
                     <button class="hover section_btn popular_card_btn hover flex animation">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                             <path
                                 d="M6 2L3 6V20C3 20.5304 3.21071 21.0391 3.58579 21.4142C3.96086 21.7893 4.46957 22 5 22H19C19.5304 22 20.0391 21.7893 20.4142 21.4142C20.7893 21.0391 21 20.5304 21 20V6L18 2H6Z"
                                 stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -233,7 +240,7 @@
                             <path
                                 d="M16 10C16 11.0609 15.5786 12.0783 14.8284 12.8284C14.0783 13.5786 13.0609 14 12 14C10.9391 14 9.92172 13.5786 9.17157 12.8284C8.42143 12.0783 8 11.0609 8 10"
                                 stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
+                        </svg> -->
                         <p class="popular_btn_txt">Add to cart</p>
                     </button>
                 </div>
@@ -256,7 +263,7 @@
 
                     <b class="popular__price">Price - <strong class="popular__price_dark">$320.00/</strong> $358</b>
                     <button class="hover section_btn popular_card_btn hover flex animation">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                             <path
                                 d="M6 2L3 6V20C3 20.5304 3.21071 21.0391 3.58579 21.4142C3.96086 21.7893 4.46957 22 5 22H19C19.5304 22 20.0391 21.7893 20.4142 21.4142C20.7893 21.0391 21 20.5304 21 20V6L18 2H6Z"
                                 stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -265,7 +272,7 @@
                             <path
                                 d="M16 10C16 11.0609 15.5786 12.0783 14.8284 12.8284C14.0783 13.5786 13.0609 14 12 14C10.9391 14 9.92172 13.5786 9.17157 12.8284C8.42143 12.0783 8 11.0609 8 10"
                                 stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
+                        </svg> -->
                         <p class="popular_btn_txt">Add to cart</p>
                     </button>
                 </div>
@@ -418,15 +425,16 @@
                         </div>
                     </div>
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
 
 
 
             </div>
 
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
+
 
     </section>
     <section class="book">
@@ -575,7 +583,11 @@
         <div class="popup__body ">
             <div class="popup__content">
                 <a href="#" class="popup_close">X</a>
-                <div class="popup_video"><iframe width="560" height="315" src="https://www.youtube.com/embed/t8k71QcArnk?si=BIGMbSF0M0y19Gyt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                <div class="popup_video"><iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/t8k71QcArnk?si=BIGMbSF0M0y19Gyt" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe></div>
             </div>
         </div>
     </div>
