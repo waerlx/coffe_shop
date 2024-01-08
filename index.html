@@ -42,7 +42,7 @@
                     <div class="logo">
                         <img class="header__logo" src="img/icons/Logo_ header.svg" alt="#">
                     </div>
-                    
+
                     <ul class="nav-main__list  nav-main__list_2 flex">
                         <li class="nav-main__item">
                             <a class="nav-main__link" href="#">Pages</a>
@@ -55,14 +55,15 @@
                         </li>
                     </ul>
                 </nav>
-                
+
                 <div class="header-icons flex ">
                     <button class="header-icons__search material-icons-outlined">search</button>
                     <button class="header-icons__cart material-icons-outlined">local_mall</button>
                 </div>
             </div>
             <button class="menu_burger">
-                <i class="burger_line"></i>
+                <i class="burger_line">
+                </i>
             </button>
         </div>
     </header>
@@ -78,7 +79,7 @@
                     <button class="transition section_btn main_btn animation">Test Coffee</button>
 
                 </div>
-                <button class="main_video__btn hover animation">Play video</button>
+                <button class="main_video__btn hover animation"><a href="#popup" class="popap_play">Play video</a></button>
             </div>
         </div>
     </section>
@@ -98,7 +99,7 @@
                         <p class="best_txt">Place to get lost</p>
                     </div>
                     <div class="best_card__img animation"><img src="img/icons/img_card_2.jpg" alt=""></div>
-                    
+
                 </div>
                 <div class="best_card">
                     <div class="best_tit flex">
@@ -345,7 +346,7 @@
             <p class="testimonial_sub sec_subtitle">Says our customers</p>
             <div class="costumer_cards_general">
                 <div class="costumer_cards flex 1_catalog">
-                    <div class="costumer_card ">
+                    <div class="costumer_card animation ">
                         <div class="costumer_data flex">
                             <div class="costumer_img">
                                 <img src="img/icons/costumer_img_1.jpg" alt="">
@@ -369,7 +370,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="costumer_card ">
+                    <div class="costumer_card animation ">
                         <div class="costumer_data flex">
                             <div class="costumer_img">
                                 <img src="img/icons/costumer_img_2.jpg" alt="">
@@ -394,20 +395,25 @@
                         </div>
                     </div>
                 </div>
-                
+
+
 
             </div>
 
-
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
 
-        </div>
     </section>
     <section class="book">
         <div class="container">
             <div class="book_wrap flex">
                 <div class="book_left">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26448.23923459542!2d-118.1448682!3d34.043104!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c57cd82d83bb%3A0x3fed93d362c6bfcb!2sLa%20Cocina%20Express!5e0!3m2!1sru!2skg!4v1703825022039!5m2!1sru!2skg" width="586" height="652" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26448.23923459542!2d-118.1448682!3d34.043104!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c57cd82d83bb%3A0x3fed93d362c6bfcb!2sLa%20Cocina%20Express!5e0!3m2!1sru!2skg!4v1703825022039!5m2!1sru!2skg"
+                        width="586" height="652" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="book_right">
                     <p class="sec_tit">Reservation</p>
@@ -417,7 +423,7 @@
                         <input type="text" class="book_input book_date" placeholder="12.25, 2020">
                         <input type="text" class="book_input book_time" placeholder="11:00 AM">
                     </div>
-                    <button class="hover section_btn animation">BOOK S TABLE</button>
+                    <button type="submit" class="hover section_btn animation">BOOK S TABLE</button>
                 </div>
 
             </div>
@@ -497,8 +503,8 @@
     <footer>
         <div class="container">
             <div class="footer flex">
-                <div class="logo"><img src="img/icons/Logo_ header.svg" alt="" ></div>
-                
+                <div class="logo"><img src="img/icons/Logo_ header.svg" alt=""></div>
+
                 <ul class="footer_nav flex">
                     <li class="footer_list">
                         <a href="" class="footer_link">Home</a>
@@ -524,21 +530,36 @@
                 </ul>
                 <form class="footer_form">
                     <input type="email" class="footer_email sec_txt" placeholder="Enter your email">
-                    <button class="footer_btn "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path d="M4.99994 12L18.9999 12" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M12 5L19 12L12 19" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg></button>
+                    <button type="submit" class="footer_btn "><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M4.99994 12L18.9999 12" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M12 5L19 12L12 19" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg></button>
                 </form>
             </div>
         </div>
         <div class="copyright">
-            <div class="container"><p class="copy_txt">e-Tennis © 2021. All rights reserved.</p></div>
-            
+            <div class="container">
+                <p class="copy_txt">e-Tennis © 2021. All rights reserved.</p>
+            </div>
+
         </div>
     </footer>
+    <div id="popup" class="popup">
+        <a href="#" class="popup__area"></a>
+        <div class="popup__body ">
+            <div class="popup__content">
+                <a href="#" class="popup_close">X</a>
+                <div class="popup_video"><iframe width="560" height="315" src="https://www.youtube.com/embed/t8k71QcArnk?si=BIGMbSF0M0y19Gyt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            </div>
+        </div>
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 
 </body>
 
