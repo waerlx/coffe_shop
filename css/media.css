@@ -226,6 +226,9 @@
 	.header{
 		display: none;
 	}
+	.burger-menu{
+		display: flex;
+	}
 	.menu_burger{
 		width: 33px;
 		height: 20px;
