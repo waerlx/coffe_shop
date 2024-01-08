@@ -624,6 +624,7 @@ color: #C99E71 ;
 /* popular */
 .popular_card {
   text-align: center;
+  overflow: hidden;
  
 }
 .popular_card:hover{
@@ -641,7 +642,21 @@ color: #C99E71 ;
   padding: 13px 20px;
   text-transform: none;
   display: none;
+  overflow: hidden;
 
+
+}
+.popular_card_btn:before {
+	font-family: FontAwesome;
+	content:"\f290";
+	position: absolute;
+	top: 11px;
+	left: -30px;
+	transition: all 200ms ease;
+  transition: 0.5s;
+}
+.popular_card_btn:hover:before {
+	left: 7px;
 }
 
 .popular_btn_txt {
@@ -776,7 +791,9 @@ color: #C99E71 ;
 .testimonial_sub {
   margin-bottom: 56px;
 }
-
+.costumer_cards_general{
+position: relative;
+}
 .costumer_card {
   max-width: 565px;
   background: #1C1814;
