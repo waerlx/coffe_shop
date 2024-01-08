@@ -472,4 +472,8 @@
 	.container {
 		max-width: 100%;
 	}
+	.book_left iframe{
+		max-width: 280px;
+	}
+
 }
