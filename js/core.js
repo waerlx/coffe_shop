@@ -28,6 +28,13 @@
 //     }
 // })
 // document.querySelector(".menu_burger").classList.contains(".active")
+
+
+
+
+
+
+
 const popupLinks = document.querySelectorAll('.popup-link')
 const body = document.querySelectorAll('body')
 const lockPadding = document.querySelectorAll('.lock-padding')
