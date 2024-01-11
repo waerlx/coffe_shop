@@ -46,3 +46,5 @@ if (popupLinks.length > 0) {
         });
     }
 }
+const popupCloseIcon = document.querySelectorAll('.close-popup')
+if 
