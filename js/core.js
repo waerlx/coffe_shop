@@ -47,4 +47,12 @@ if (popupLinks.length > 0) {
     }
 }
 const popupCloseIcon = document.querySelectorAll('.close-popup')
-if 
+if (popupCloseIcon.length > 0) {
+    for (let index = 0; index < popupCloseIcon.length; index++) {
+        const el = popupCloseIcon[index];
+        el.addEventListener('click', function (e){
+            popupClose(el.closest('.popup'));
+            e.preventDefault();
+        });
+    }
+}
