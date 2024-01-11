@@ -40,7 +40,9 @@ if (popupLinks.length > 0) {
         const popupLink = popupLinks[index];
         popupLink.addEventListener("click", function (e) {
             const popupName = popupLink.getAttribute('href').replace('#','');
-            const currentPopup = document.getel
-        })
+            const currentPopup = document.getElementById(popupName);
+            popupOpen(currentPopup);
+            e.preventDefault()
+        });
     }
 }
