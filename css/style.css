@@ -573,6 +573,7 @@ color: #C99E71 ;
 /* popular */
 .popular_cards {
   margin-top: 56px;
+  transition: all .0.9s ease-out;
 }
 
 .popular_card {
@@ -599,6 +600,7 @@ color: #C99E71 ;
 .popular_card {
   text-align: center;
   overflow: hidden;
+  
  
 }
 .popular_card:hover{
@@ -696,6 +698,10 @@ color: #C99E71 ;
 .popular_card:hover .popular_card_item,
 .popular_card:hover .popular__price{
   display: none;  
+  /* opacity: 0;
+  visibility: hidden;
+  z-index: -1;
+  margin-bottom: 0; */
 }
 .popular_card:hover .popular_card_btn{
   display: flex;
@@ -939,15 +945,24 @@ color: #C99E71;
   left: 0;
   opacity: 0;
   visibility: hidden;
+  transition: all 0.8s ease 0s;
 }
-.popup:target{
+.popup.open{
   opacity: 1;
   visibility: visible;
+}
+.popup.open .popup__content{
+  transform: perspective(600px) translate(0px, 0%) rotateX(0deg);
+  opacity: 1;
 }
 .popup__body{
   min-height: 100%;
   display: flex;justify-content: center;
   align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 30px 10px;
+  transition: all 0.8s ease 0s;
 }
 .popup__area{
   position: absolute;
@@ -955,11 +970,15 @@ color: #C99E71;
   height: 100%;
   top: 0;
   left: 0;
+ 
 }
 .popup__content{
-color: #000;
+color: #fffbfb;
 max-width: 800px;
 position: relative;
+transition: all 0.8s ease 0s;
+opacity: 0;
+transform: perspective(600px) translate(0px, 100%) rotateX(45deg);
 }
 .popup_close{
 position: absolute;
