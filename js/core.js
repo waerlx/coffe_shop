@@ -72,6 +72,16 @@ function popupOpen(currentPopup) {
             bodyLock();
         }
         currentPopup.classList.add('open');
+        currentPopup.addEventListener("click", function(e) {
+            if (!e.target.closest('.popup__content')) {
+                popupClose(e.target.closest('.popup'));
+            }
+        });
 
     }
+}
+function bodyLock() {
+    const lockPaddingValue = window.innerWidth - document.querySelector('.wrapper').offsetWidth + 'px';
+
+     for (let)
 }
