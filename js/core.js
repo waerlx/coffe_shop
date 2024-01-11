@@ -56,3 +56,9 @@ if (popupCloseIcon.length > 0) {
         });
     }
 }
+function popupOpen(currentPopup) {
+    if(currentPopup && unlock) {
+        const popupActive = document.querySelector('.popup.open');
+        if(popupActive)
+    }
+}
