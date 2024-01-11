@@ -8,11 +8,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined">
@@ -83,8 +79,9 @@
                     <button class="transition section_btn main_btn animation">Test Coffee</button>
 
                 </div>
-                <button class="main_video__btn hover animation popap-link"><a href="#popup" class="popap_play">Play
-                        video</a></button>
+                <button class="main_video__btn hover animation popup-link">
+                    <a href="#popup" class="popup_play">Play video</a>
+                </button>
             </div>
         </div>
     </section>
@@ -554,15 +551,18 @@
         </div>
     </footer>
     <div id="popup" class="popup">
-        <!-- <a href="##" class="popup__area"></a> -->
+        <a href="##" class="popup__area"></a>
         <div class="popup__body ">
             <div class="popup__content">
                 <a href="##" class="popup_close close-popup">X</a>
-                <div class="popup_video"><iframe width="560" height="315"
+                <div class="popup_video">
+                    <iframe width="560" height="315"
                         src="https://www.youtube.com/embed/t8k71QcArnk?si=BIGMbSF0M0y19Gyt" title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe></div>
+                        allowfullscreen>
+                    </iframe>
+                    </div>
             </div>
         </div>
     </div>
