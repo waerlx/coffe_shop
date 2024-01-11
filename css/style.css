@@ -950,11 +950,11 @@ color: #C99E71;
   visibility: hidden;
   transition: all 0.8s ease 0s;
 }
-.popup.open{
+.popup:target{
   opacity: 1;
   visibility: visible;
 }
-.popup.open .popup__content{
+.popup:target .popup__content{
   transform: perspective(600px) translate(0px, 0%) rotateX(0deg);
   opacity: 1;
 }
