@@ -79,8 +79,8 @@
                     <button class="transition section_btn main_btn animation">Test Coffee</button>
 
                 </div>
-                <button class="main_video__btn hover animation popup-link">
-                    <a href="#popup" class="popup_play">Play video</a>
+                <button class="main_video__btn hover animation ">
+                    <a href="#popup" class="popup_play popup-link">Play video</a>
                 </button>
             </div>
         </div>
@@ -346,8 +346,8 @@
         <div class="container">
             <p class="sec_tit">Testimonial</p>
             <p class="testimonial_sub sec_subtitle">Says our customers</p>
-            <div class="costumer_cards_general">
-                <div class="costumer_cards flex 1_catalog">
+            <div class="costumer_cards_swiper">
+                <div class="costumer_cards_general"><div class=".costumer_cards flex 1_catalog">
                     <div class="costumer_card animation ">
                         <div class="costumer_data flex">
                             <div class="costumer_img">
@@ -397,13 +397,85 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <!-- <div class="costumer_cards_general"><div class=".costumer_cards flex 1_catalog">
+                    <div class="costumer_card animation ">
+                        <div class="costumer_data flex">
+                            <div class="costumer_img">
+                                <img src="img/icons/costumer_img_1.jpg" alt="">
+                            </div>
+                            <p class="costumer_edu sec_txt">Education WP is a special build for effective education &
+                                Learning
+                                Management System site. Education WP is the next generation & one of the best education
+                                WordPress themes which all the strength of eLearning WP..</p>
+                        </div>
+                        <div class="costumer_info flex">
+                            <div class="costumer_person">
+                                <span class="costumer_name">John Smith</span>
+                                <span class="sec_txt costumer_position">Product Designer</span>
+                            </div>
+                            <ul class="costumer_item_stars">
+                                <i class="costumer_item_star"></i>
+                                <i class="costumer_item_star"></i>
+                                <i class="costumer_item_star"></i>
+                                <i class="costumer_item_star"></i>
+                                <i class="costumer_item_star"></i>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="costumer_card animation ">
+                        <div class="costumer_data flex">
+                            <div class="costumer_img">
+                                <img src="img/icons/costumer_img_2.jpg" alt="">
+                            </div>
+                            <p class="costumer_edu sec_txt">Education WP is a special build for effective education &
+                                Learning
+                                Management System site. Education WP is the next generation & one of the best education
+                                WordPress themes which all the strength of eLearning WP..</p>
+                        </div>
+                        <div class="costumer_info flex">
+                            <div class="costumer_person">
+                                <span class="costumer_name">JBrett Lee</span>
+                                <span class="sec_txt costumer_position">User Experience Designer</span>
+                            </div>
+                            <ul class="costumer_item_stars">
+                                <i class="costumer_item_star"></i>
+                                <i class="costumer_item_star"></i>
+                                <i class="costumer_item_star"></i>
+                                <i class="costumer_item_star"></i>
+                                <i class="costumer_item_star"></i>
+                            </ul>
+                        </div>
+                    </div> -->
+                </div></div>
+
+                
+                <div class="swiper-buttons"> 
+                    <button id="prev-slide" class="slide-button material-symbols-rounded"></button> 
+                    <button id="next-slide" class="slide-button material-symbols-rounded"></button>
+                </div>
+                
+                   
                 <div class="swiper-pagination"></div>
 
 
 
             </div>
+            <div class="testimonial-action">
+                <div class="testimonial-count">
+                    <b class="testimonial-count__text">2/6 People</b>
+                    <progress class="testimonial-count__progress" value="40" max="100"></progress>
+                </div>
+                <div class="testimonial-btn-wrap">
+                    <button class="testimonial-btn material-icons-outlined">west</button>
+                    <button class="testimonial-btn material-icons-outlined testimonial-btn_active">east</button>
+                </div>
+            </div>
+            <!-- <div class="slider-scrollbar">
+                <div class="scrollbar-track">
+                    <div class="scrollbar-thumb"></div>
+                </div>
+            </div> -->
+            
 
         </div>
 
@@ -556,21 +628,21 @@
             <div class="popup__content">
                 <a href="##" class="popup_close close-popup">X</a>
                 <div class="popup_video">
-                    <iframe width="560" height="315"
-                        src="https://www.youtube.com/embed/t8k71QcArnk?si=BIGMbSF0M0y19Gyt" title="YouTube video player"
-                        frameborder="0"
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/t8k71QcArnk?si=BIGMbSF0M0y19Gyt"
+                        title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen>
                     </iframe>
-                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <script src="js/core.js"></script>
     <!-- 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
 
 
+    <script src="js/core.js"></script>
+    <script src="js/swiper.js" defer></script>
 </body>
 
 </html>
