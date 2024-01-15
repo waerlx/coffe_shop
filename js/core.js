@@ -133,3 +133,37 @@
 //         popupClose(popupActive);
 //     }
 // });
+// const hamburger = document.querySelector(".hamburger");
+// const navMenu = document.querySelector(".nav-menu");
+
+// hamburger.addEventListener("click", mobileMenu);
+
+// function mobileMenu() {
+//     hamburger.classList.toggle("active");
+//     navMenu.classList.toggle("active");
+// }
+
+// const navLink = document.querySelectorAll(".nav-link");
+
+// navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+// function closeMenu() {
+//     hamburger.classList.remove("active");
+//     navMenu.classList.remove("active");
+// }
+let menu_button = document.querySelector('.header__burger');
+let menu_itself = document.querySelector('.header__menu');
+let menu_list = document.querySelector('.header__list');
+let body = document.querySelector('body');
+
+menu_button.onclick = function() {
+  menu_button.classList.toggle('active');
+  menu_itself.classList.toggle('active');
+  body.classList.toggle('lock');
+};
+
+menu_list.onclick = function() {
+  menu_button.classList.toggle('active');
+  menu_itself.classList.toggle('active');
+  body.classList.toggle('lock');
+};
